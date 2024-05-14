@@ -16,6 +16,9 @@ function MyRGBPanel()
 
     return (
         <>
+        <h1 style={{
+                color : `rgb(${red}, ${green},${blue})`
+        }}>5B0G0003，林庭碩</h1>
         <div style={{
             border : "1px solid blue",
             borderRadius : "20px",
